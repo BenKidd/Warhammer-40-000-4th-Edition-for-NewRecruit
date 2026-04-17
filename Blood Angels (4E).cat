@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="900c-55b1-08ac-c1d2" name="Blood Angels (4E)" gameSystemId="sys-b41a-8226-286b-0dea" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" publicationId="303b-0e89-1b90-e918" authorName="Been" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedRules>
+    <rule name="And They Shall Know No Fear" id="2e1b-f977-e18c-6f66" hidden="false" publicationId="303b-0e89-1b90-e918" page="5">
+      <description>Space Marines automatically pass tests to regroup and can take such tests even if the squad has been reduced to less than 50% by casualties, though all other criteria apply. If Space Marines are caught by a sweeping advance, they are not destroyed and will instead continue to fight normally. If this happens, then the unit is subject to the No Retreat! rule in that round of close combat and may therefore lose additional casualties if outnumbered. Usually troops that regroup may not move normally and always count as moving whether they do or not, but these restrictions do not apply to models with this special rule.
+
+
+Remember that units that include Servitors are still subject to this rule as long as the squad contains at least one Space Marine. Space Marines are still subject to Last Man Standing tests. However, they will always pass the test to regroup after each Fall Back move.</description>
+    </rule>
+    <rule name="Combat Squads" id="470f-23ad-1800-7a8b" hidden="false" publicationId="303b-0e89-1b90-e918" page="5">
+      <description>A number of 10-man units in a Blood Angels army have the option of breaking down into two 5-man units, called Combat Squads. This option is clearly specified in the unit’s entry. For example, a 10-man Veteran Assault Squad can either fight as a 10-man unit or break down into two 5-man Combat Squads.
+
+
+The units that can be split into Combat
+squads are as follows.
+• Veteran Assault Squads
+• Scout Squads
+• Tactical Squads
+• Assault Squads
+• Devastator Squads
+
+
+The decision to split a unit into Combat Squads, as well as which models go into each Combat Squad, must be made when the unit is deployed. Both Combat Squads are deployed at the same time but may be may be deployed in separate locations. If you decide to break the unit down, then each Combat Squad is treated as a separate unit for all game purposes from that point and counts as a scoring unit if it still has half or more of its starting models, etc. Units held in Reserve cannot be split into Combat Squads.
+
+
+For Victory Points purposes, each Combat Squad is worth a number of Victory Points equal to half of the points value of the unit. For example, a 10-man Tactical Squad upgraded to include a lascannon and a meltagun is worth a total of 220 points. If the squad was to be broken down into Combat Squads, each would be worth 110 Victory Points (regardless of which models were assigned to each Combat Squad). If at the end of the game, one Combat squad had been wiped out and the other was reduced to two models, the enemy would score 165 points.</description>
+    </rule>
+    <rule name="Rites of Battle" id="9c14-e079-1778-fb4d" hidden="false" publicationId="303b-0e89-1b90-e918">
+      <description>All other Blood Angel models in the same army may use this model’s Leadership for Morale, Pinning, and Leadership tests, but not Psychic tests</description>
+    </rule>
+  </sharedRules>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Commander Dante, Lord of the Blood Angels" hidden="false" id="11c9-e339-fd4d-bb59" publicationId="303b-0e89-1b90-e918" page="16">
+      <costs>
+        <cost name="Points" typeId="4deb-313d-6685-f48b" value="200"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="0d45-9523-cfd8-4efd" id="0771-d27b-1283-2313" primary="true" name="HQ"/>
+        <categoryLink targetId="c918-96c1-1ff1-3df1" id="eb68-4d79-8123-f83c" primary="false" name="Character"/>
+        <categoryLink targetId="e39c-0852-74f1-402d" id="18be-2247-7093-31f8" primary="false" name="Blood Angel"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6060-bc4f-a647-513c" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Death Mask of Sanguinius" hidden="false" id="0d8e-78c1-6732-8b7a" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="88aa-c457-93f5-fc88-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88aa-c457-93f5-fc88-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Death Mask of Sanguinius" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear" hidden="false" id="d4d1-d092-b6fd-5517">
+              <characteristics>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Dante&apos;s Artificer Armor incorporates an incredibly lifelike golden mask, which is said to have been modeled on the features of Sanguinius. In battle, it almost appears to come to life, and a halo of golden energy plays about Dante&apos;s head and strikes terror into the hearts of his enemies. For as long as an enemy model is within 6&quot; of Dante, its WS and BS are each reduced by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Perdition Pistol" hidden="false" id="a149-2092-f1b4-fc8b" sortIndex="8">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c366-c2ca-c36f-0479-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c366-c2ca-c36f-0479-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Perdition Pistol" typeId="576561706f6e23232344415441232323" typeName="Weapon" hidden="false" id="c903-0955-cda2-d05c">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
+                <characteristic name="AP" typeId="4.1502323234441545e+23">1</characteristic>
+                <characteristic name="Type" typeId="8b10-045a-f593-605e">Assault 1, Melta, Pistol</characteristic>
+                <characteristic name="Info" typeId="33e9-27bd-77e4-401d">The Perdition Pistol is a beautifully crafted and incredibly ancient weapon that dates back to the Dark Age of Technology. It uses similar principles to the meltagun to melt whatever it is fired at. It may be fired as if it were a meltagun. The Perdition pistol counts as a normal pistol in close combat.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Axe Mortalis" hidden="false" id="691f-3a77-2f52-07f4" page="" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a119-f711-ce19-67a3-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a119-f711-ce19-67a3-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Axe Mortalis" typeId="b729-49a4-4123-cf00" typeName="Melee Weapon" hidden="false" id="35d7-5200-919d-c089" publicationId="303b-0e89-1b90-e918" page="7">
+              <characteristics>
+                <characteristic name="Details" typeId="acf3-d214-6e51-29fe">Dante is armed with the Axe Mortalis. This ancient weapon was crafted by revered Chapter Armorer Metriculus in the days following the Horus Heresy. It counts as a master-crafted power weapon.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Commander Dante, Lord of the Blood Angels" typeId="556e697423232344415441232323" typeName="Unit" hidden="false" id="3b69-4324-1efd-6c48">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Infantry, Character</characteristic>
+            <characteristic name="WS" typeId="5.753232323444154e+23">6</characteristic>
+            <characteristic name="BS" typeId="4.2532323234441546e+23">5</characteristic>
+            <characteristic name="S" typeId="5.323232344415441e+21">4</characteristic>
+            <characteristic name="T" typeId="5.423232344415441e+21">4</characteristic>
+            <characteristic name="W" typeId="5.723232344415441e+21">3</characteristic>
+            <characteristic name="I" typeId="4.923232344415441e+21">5</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">4</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
+            <characteristic name="Sv" typeId="5.361766523232344e+27">2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Frag Grenades" hidden="false" id="81c4-915d-7908-a125" type="selectionEntry" targetId="2d20-fb36-3564-0dbe" sortIndex="4"/>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="eada-f582-6d6c-e1a7" type="selectionEntry" targetId="f95f-36b5-33b7-c0f3" sortIndex="7"/>
+        <entryLink import="true" name="Iron halo" hidden="false" id="2017-13ee-00c7-32b0" type="selectionEntry" targetId="b389-dfc5-b92f-bc99" sortIndex="5"/>
+        <entryLink import="true" name="Jump pack" hidden="false" id="8945-68d9-c902-9672" type="selectionEntry" targetId="c203-7a27-4440-20b5" sortIndex="6"/>
+        <entryLink import="true" name="Artificer armor" hidden="false" id="8077-3962-2f3b-0401" type="selectionEntry" targetId="9d28-087c-b8af-d4d8" sortIndex="1"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Rites of Battle" id="1b1e-f32e-f1de-a0a9" hidden="false" type="rule" targetId="9c14-e079-1778-fb4d"/>
+        <infoLink name="Fearless" id="f437-90f2-ac95-e5d5" hidden="false" type="rule" targetId="db33-1068-512b-6958"/>
+        <infoLink name="Jump Infantry" id="203f-e701-3f8c-3ff0" hidden="false" type="rule" targetId="1c34-b70c-30f3-dd56"/>
+        <infoLink name="Character" id="f1c7-2d29-9609-54b9" hidden="false" type="rule" targetId="ff9d-2579-a056-981b"/>
+      </infoLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Artificer Armor" hidden="false" id="9d28-087c-b8af-d4d8"/>
+    <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="c203-7a27-4440-20b5"/>
+    <selectionEntry type="upgrade" import="true" name="Iron Halo" hidden="false" id="b389-dfc5-b92f-bc99"/>
+  </sharedSelectionEntries>
+</catalogue>

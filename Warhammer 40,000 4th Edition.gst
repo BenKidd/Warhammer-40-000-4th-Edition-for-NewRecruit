@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-b41a-8226-286b-0dea" name="Warhammer 40,000 4th Edition" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Kothra" publicationId="c0d3-c074-f54c-9ec4">
+<gameSystem id="sys-b41a-8226-286b-0dea" name="Warhammer 40,000 4th Edition" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Kothra" publicationId="c0d3-c074-f54c-9ec4">
   <categoryEntries>
     <categoryEntry name="HQ" id="0d45-9523-cfd8-4efd" hidden="false"/>
     <categoryEntry name="Elites" id="39ab-2bcd-49d1-cfef" hidden="false"/>
@@ -62,6 +62,7 @@
     <publication name="Imperial Armour II - Ork, Eldar and Dark Eldar " id="138a-0b3f-cad7-1794" hidden="false" publisher="Imperial Armour II - Ork, Eldar and Dark Eldar Vehicles for Warhammer 40,000" shortName="IA2" publisherUrl="https://wh40k.lexicanum.com/wiki/Imperial_Armour_II_-_Ork,_Eldar_and_Dark_Eldar_Vehicles_for_Warhammer_40,000" publicationDate="2001"/>
     <publication name="Codex: Orks (2008)" id="4f2e-0482-0981-cdae" hidden="false" publicationDate="2008/01" publisherUrl="https://wh40k.lexicanum.com/wiki/Codex:_Orks_(4th_Edition)" publisher="Codex: Orks" shortName="OR08"/>
     <publication name="Codex: Chaos Space Marines (2007)" id="3c33-edbb-79d5-85d1" hidden="false" shortName="CSM07" publisher="Codex: Chaos Space Marines" publicationDate="2007/09" publisherUrl="https://wh40k.lexicanum.com/wiki/Codex:_Chaos_Space_Marines_(4th_Edition)"/>
+    <publication name="Codex: Blood Angels (2007)" id="303b-0e89-1b90-e918" hidden="false" shortName="BA07" publisher="Codex: Blood Angels (2007)" publicationDate="2007" publisherUrl="https://wh40k.lexicanum.com/wiki/Codex:_Blood_Angels_(4th_Edition)"/>
   </publications>
   <costTypes>
     <costType name="Points" id="4deb-313d-6685-f48b" defaultCostLimit="-1"/>
