@@ -45,8 +45,8 @@ For Victory Points purposes, each Combat Squad is worth a number of Victory Poin
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Death Mask of Sanguinius" hidden="false" id="0d8e-78c1-6732-8b7a" sortIndex="3">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="88aa-c457-93f5-fc88-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88aa-c457-93f5-fc88-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5abb-2741-f9e3-0838-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5abb-2741-f9e3-0838-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="Death Mask of Sanguinius" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear" hidden="false" id="d4d1-d092-b6fd-5517">
@@ -60,6 +60,8 @@ For Victory Points purposes, each Combat Squad is worth a number of Victory Poin
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c366-c2ca-c36f-0479-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c366-c2ca-c36f-0479-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6555-29b2-3bf9-c137-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6555-29b2-3bf9-c137-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="Perdition Pistol" typeId="576561706f6e23232344415441232323" typeName="Weapon" hidden="false" id="c903-0955-cda2-d05c">
@@ -73,10 +75,10 @@ For Victory Points purposes, each Combat Squad is worth a number of Victory Poin
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Axe Mortalis" hidden="false" id="691f-3a77-2f52-07f4" page="" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Axe Mortalis" hidden="false" id="691f-3a77-2f52-07f4" sortIndex="2">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a119-f711-ce19-67a3-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a119-f711-ce19-67a3-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec83-a1af-1412-8a5a-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec83-a1af-1412-8a5a-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="Axe Mortalis" typeId="b729-49a4-4123-cf00" typeName="Melee Weapon" hidden="false" id="35d7-5200-919d-c089" publicationId="303b-0e89-1b90-e918" page="7">
@@ -104,11 +106,31 @@ For Victory Points purposes, each Combat Squad is worth a number of Victory Poin
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Frag Grenades" hidden="false" id="81c4-915d-7908-a125" type="selectionEntry" targetId="2d20-fb36-3564-0dbe" sortIndex="4"/>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="eada-f582-6d6c-e1a7" type="selectionEntry" targetId="f95f-36b5-33b7-c0f3" sortIndex="7"/>
-        <entryLink import="true" name="Iron halo" hidden="false" id="2017-13ee-00c7-32b0" type="selectionEntry" targetId="b389-dfc5-b92f-bc99" sortIndex="5"/>
-        <entryLink import="true" name="Jump pack" hidden="false" id="8945-68d9-c902-9672" type="selectionEntry" targetId="c203-7a27-4440-20b5" sortIndex="6"/>
-        <entryLink import="true" name="Artificer armor" hidden="false" id="8077-3962-2f3b-0401" type="selectionEntry" targetId="9d28-087c-b8af-d4d8" sortIndex="1"/>
+        <entryLink import="true" name="Frag Grenades" hidden="false" id="81c4-915d-7908-a125" type="selectionEntry" targetId="2d20-fb36-3564-0dbe" sortIndex="4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4693-f5a5-8179-e051-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4693-f5a5-8179-e051-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="eada-f582-6d6c-e1a7" type="selectionEntry" targetId="f95f-36b5-33b7-c0f3" sortIndex="7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5989-58f4-440d-de44-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5989-58f4-440d-de44-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Iron Halo" hidden="false" id="2017-13ee-00c7-32b0" type="selectionEntry" targetId="b389-dfc5-b92f-bc99" sortIndex="5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e1b-16b9-322c-085d-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e1b-16b9-322c-085d-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Jump Pack" hidden="false" id="8945-68d9-c902-9672" type="selectionEntry" targetId="c203-7a27-4440-20b5" sortIndex="6">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="acd1-13f6-0c14-438f-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acd1-13f6-0c14-438f-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Artificer Armor" hidden="false" id="8077-3962-2f3b-0401" type="selectionEntry" targetId="9d28-087c-b8af-d4d8" sortIndex="1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Rites of Battle" id="1b1e-f32e-f1de-a0a9" hidden="false" type="rule" targetId="9c14-e079-1778-fb4d"/>
@@ -119,8 +141,20 @@ For Victory Points purposes, each Combat Squad is worth a number of Victory Poin
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Artificer Armor" hidden="false" id="9d28-087c-b8af-d4d8"/>
-    <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="c203-7a27-4440-20b5"/>
-    <selectionEntry type="upgrade" import="true" name="Iron Halo" hidden="false" id="b389-dfc5-b92f-bc99"/>
+    <selectionEntry type="upgrade" import="true" name="Artificer Armor" hidden="false" id="9d28-087c-b8af-d4d8">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11a4-ffaa-8f54-e980" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="c203-7a27-4440-20b5">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79bd-7ba7-9e68-733c" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Iron Halo" hidden="false" id="b389-dfc5-b92f-bc99">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f6b-3aee-dc50-faa8" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
